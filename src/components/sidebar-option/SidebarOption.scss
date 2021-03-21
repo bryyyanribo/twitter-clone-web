@@ -1,0 +1,26 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &_icon {
+    padding: 20px;
+  }
+
+  & > span {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+  &:hover {
+    background-color: var(--twitter-background-color);
+    color: var(--twitter-color);
+    border-radius: 30px;
+    transition: color 100ms ease-out;
+  }
+
+  &--active {
+    color: var(--twitter-color);
+  }
+}

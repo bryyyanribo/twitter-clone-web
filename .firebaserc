@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "portfolio-compilation"
+  },
+  "targets": {
+    "portfolio-compilation": {
+      "hosting": {
+        "twitter": [
+          "twitter-clone-2a3d8"
+        ]
+      }
+    }
+  }
+}
